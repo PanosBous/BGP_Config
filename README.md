@@ -3,7 +3,7 @@ I just wanted to learn how to do a basic BGP configuration in yaml
 
 The snippet is the following
 ```text
-router bgp [AS number]
- neighbor [neighbor IP address] remote-as [neighbor AS number]
- network [network IP address]
+router bgp 65001
+ neighbor 192.168.1.2 remote-as 65002
+ network 10.10.10.0
 ```
