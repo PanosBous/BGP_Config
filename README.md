@@ -2,9 +2,8 @@
 I just wanted to learn how to do a basic BGP configuration in yaml
 
 The snippet is the following
-
+```text
 router bgp [AS number]
-
-neighbor [neighbor IP address] remote-as [neighbor AS number]
-
-network [network IP address]
+ neighbor [neighbor IP address] remote-as [neighbor AS number]
+ network [network IP address]
+```
