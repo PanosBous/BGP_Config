@@ -1,0 +1,8 @@
+how to run: ansible-playbook bgp.yml
+
+in the file inventory.ini there are the hosts and vars of the playbook
+The line hosts: routers goes to ([routers] router1 ansible_host = 10.0.0.10)
+and the line vars goes to ([routers:vars]) for the general configs like: password, etc
+
+
+
