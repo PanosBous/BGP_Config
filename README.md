@@ -16,4 +16,5 @@ router bgp 65001
 ```
 # Next steps I would like to add
 separate the jinja2 in a new file
+
 create routers as a group variables
