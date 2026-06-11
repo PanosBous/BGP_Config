@@ -1,0 +1,9 @@
+router bgp {{ bgp.asn }}
+    bgp log-neighbor-changes
+
+    neighbor {{ bgp.neighbor_ip }} remote-as {{ bgp.neighbor_as }}
+    neighbor {{ bgp.neighbor_ip }} description BGP_PEER
+
+    address-family ipv4
+        neighbor {{ bgp.neighbor_ip }} activate
+    exit-address-family
